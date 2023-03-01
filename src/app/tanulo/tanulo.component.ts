@@ -1,3 +1,13 @@
+/*
+* File: tanulo.component.ts
+* Author: Sánta Renáta Diána
+* Copyright: 2023, Sánta Renáta Diána
+* Group: Szoft II N
+* Date: 2023-03-01
+* Github: https://github.com/SantaRenata/
+* Licenc: GNU GPL
+*/
+
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../shared/api.service';
 

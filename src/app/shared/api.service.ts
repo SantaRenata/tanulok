@@ -1,3 +1,13 @@
+/*
+* File: api.service.ts
+* Author: Sánta Renáta Diána
+* Copyright: 2023, Sánta Renáta Diána
+* Group: Szoft II N
+* Date: 2023-03-01
+* Github: https://github.com/SantaRenata/
+* Licenc: GNU GPL
+*/
+
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
