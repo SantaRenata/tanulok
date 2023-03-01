@@ -1,1 +1,35 @@
-<p>tanulo works!</p>
+<table class="table table-stipped">
+    <thead>
+        <tr class="table-success">
+            <th>Id</th>
+            <th>Név</th>
+            <th>Nem</th>
+            <th>Osztály</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <td>{{student.id}}</td>
+            <td>{{student.name}}</td>
+            <td>{{student.gender}}</td>
+            <td>{{student.group}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="table table-stipped">
+    <thead>
+        <tr class="table-success">
+            <th>Id</th>
+            <th>Pont</th>
+            <th>TanulóId</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let score of scores">
+            <td>{{score.id}}</td>
+            <td>{{score.score}}</td>
+            <td>{{score.studentId}}</td>
+        </tr>
+    </tbody>
+</table>
